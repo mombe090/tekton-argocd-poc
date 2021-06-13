@@ -8,7 +8,7 @@ metadata:
 type: Opaque
 stringData:
   username: tekton
-  password: ## INSERT TOKEN HERE
+  password: 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
 ---
 apiVersion: v1
 kind: ConfigMap
