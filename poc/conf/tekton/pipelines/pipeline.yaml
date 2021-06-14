@@ -66,7 +66,7 @@ spec:
         - name: CONTEXT_DIR
           value: '$(params.working-dir)'
         - name: GOALS
-          value: ['sonar:sonar', '-Dsonar.host.url=$(params.sonar-url)']
+          value: ['sonar:sonar', '-Dsonar.host.url=$(params.sonar-url)', '-Dsonar.login=admin']
       workspaces:
         - name: source
           workspace: ws
