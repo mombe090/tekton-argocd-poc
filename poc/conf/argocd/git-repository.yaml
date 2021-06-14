@@ -20,7 +20,7 @@ metadata:
     app.kubernetes.io/part-of: argocd
 data:
   repositories: |
-    - url: https://github.com/jaruizes/tekton-argocd-poc
+    - url: https://github.com/mombe090/tekton-argocd-poc
       passwordSecret:
         name: repo-gitops
         key: password
